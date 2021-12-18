@@ -1,0 +1,29 @@
+@media screen and (max-width: 1024px) {
+    #contentQuestion .answer {
+        width: 43%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #contentQuestion .content {
+        height: 50vh;
+        overflow: auto;
+    }
+    #contentQuestion .answer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .btn-review,
+    .btn-end {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .btn-review,
+    .btn-end {
+        margin: 0 0.25rem;
+    }
+}
